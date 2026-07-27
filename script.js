@@ -162,3 +162,16 @@ document.body.appendChild(topBtn);
 window.addEventListener("scroll",()=>{
 
 if(window.scrollY>
+// Mobile Menu
+
+const menu=document.querySelector(".menu-btn");
+
+const nav=document.querySelector(".nav-links");
+
+menu.addEventListener("click",()=>{
+
+nav.classList.toggle("show");
+
+});
+
+                        
